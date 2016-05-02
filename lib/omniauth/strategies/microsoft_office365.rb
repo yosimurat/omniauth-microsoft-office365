@@ -27,7 +27,7 @@ module OmniAuth
           business_phones: raw_info["businessPhones"],
           mobile_phone:    raw_info["mobilePhone"],
           office_phone:    raw_info["officePhone"],
-          image:           avatar_file,
+          image:           nil,
         }
       end
 
